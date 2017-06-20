@@ -1,3 +1,9 @@
 /**
  * Place your custom styles here.
  */
+@media all {
+  #navbar > div.navbar-header > div > a.logo.navbar-btn.pull-left > img {
+    border: 0;
+    width: 4em;
+  }
+}
