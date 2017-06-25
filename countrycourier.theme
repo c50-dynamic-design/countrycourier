@@ -5,3 +5,16 @@
  *
  * Place your custom PHP code in this file.
  */
+function countrycourier_preprocess_links__language_block(&$variables) {
+  $currentLanguageCode = \Drupal::languageManager()
+                                ->getCurrentLanguage()
+                                ->getId();
+  // Replace key of active language with 'active'.
+  foreach ($variables['links'] as $i => $link) {
+    $linkLanguage = $link['link']['#options']['language'];
+    if ($currentLanguageCode == $linkLanguage->get('id')) {
+      $variables['links']['active'] = $link;
+      unset($variables['links'][$i]);
+    }
+  }
+}

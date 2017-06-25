@@ -6,4 +6,10 @@
     border: 0;
     width: 4em;
   }
+
+  .language-link.is-active {
+    color: #fff;
+  }
+
+
 }
