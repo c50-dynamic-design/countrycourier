@@ -11,8 +11,8 @@
     color: #fff;
   }
 
-#block-selecteurdelangue > ul .links.listGroup {
-  margin-left: -1.4em;
-}
+  #block-selecteurdelangue > ul.links.listGroup {
+    margin-left: -1.4em;
+  }
 
 }
