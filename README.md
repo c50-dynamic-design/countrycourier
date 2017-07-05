@@ -3,7 +3,7 @@
 <!-- @ingroup sub_theming -->
 # CDN Country Courier
 
-The CDN GenotBijoux is a Drupal 8 Bootstrap sub-theme.
+The CDN Country Courier is a Drupal 8 Bootstrap sub-theme.
 
 [Drupal Bootstrap]: https://www.drupal.org/project/bootstrap
 [Bootstrap Framework]: http://getbootstrap.com
