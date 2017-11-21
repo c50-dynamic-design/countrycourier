@@ -1,4 +1,42 @@
 global-styling:
+  version: VERSION
   css:
     theme:
       css/style.css: {}
+  js:
+    js/countrycourier.js: {}
+  dependencies:
+    - core/jquery
+
+font-awesome:
+  version: 4.5.0
+  license:
+    name: MIT
+    url: https://fortawesome.github.io/Font-Awesome/license/
+    gpl-compatible: truegit
+  css:
+    theme:
+      //maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css: { type: external, minified: true }
+
+flexslider:
+  version: 2.6.4
+  license:
+    name: GPL-2.0
+    url: https://github.com/woocommerce/FlexSlider/blob/master/LICENSE.md
+  css:
+    theme:
+      //cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.4/flexslider.min.css: { type: external, minified: true }
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.4/jquery.flexslider-min.js: { type: external, minified: true }
+  dependencies:
+    - core/jquery
+
+scroll-to:
+  version: 2.1.2
+  license:
+    name: MIT
+    urm: https://github.com/flesler/jquery.scrollTo/blob/master/LICENSE
+  js:
+    //cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js: { type: external, minified: true }
+  dependencies:
+    - core/jquery
