@@ -4,7 +4,7 @@ base theme: bootstrap
 
 name: 'Country Courier Express'
 description: 'A responsive Drupal8 theme.'
-package: 'C50'
+package: 'Bootstrap'
 
 regions:
   header_top: 'Header Top'
@@ -15,6 +15,7 @@ regions:
   page_bottom: 'Page bottom'
   highlighted: 'Highlighted'
   headline: 'Headline'
+  title_bar: 'Title Bar'
   breadcrumb: 'Breadcrumb'
   before_content: 'Before Content'
   content: 'Content'

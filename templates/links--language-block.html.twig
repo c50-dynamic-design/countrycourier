@@ -42,13 +42,9 @@
       <h2{{ heading.attributes }}>{{ heading.text }}</h2>
     {%- endif -%}
   {%- endif -%}
-  {%- if attributes.hasClass('inline') -%}
   <ul{{ attributes.addClass('list-inline') }}>
-  {%- else -%}
-  <ul{{ attributes.addClass('listGroup') }}>
-  {%- endif -%}
     {%- for key, item in links -%}
-      <li{{ item.attributes.addClass(key|clean_class, 'list-group-item') }}>
+      <li{{ item.attributes.addClass(key|clean_class, 'language-group-item') }}>
         {%- if item.link -%}
           {{ item.link }}
         {%- elseif item.text_attributes -%}

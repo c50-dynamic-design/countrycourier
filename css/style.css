@@ -78,6 +78,9 @@ a:active {
   color: #0088CC;
 }
 
+/* Language links */
+a.isactive
+
 /* Blockquote */
 blockquote {
   font-size: 1em;
@@ -124,7 +127,7 @@ hr:after {
 
 /* Header Top */
 .header-top {
-  height: 30px;
+  height: 50px;
   border-bottom: 1px solid #EBEBEB;
   border-top: 2px solid #0088CC;
 }
@@ -246,7 +249,7 @@ hr:after {
 .intro {
   height: 100%;
   width: 100%;
-  background: url(/themes/genotbijoux/img/background.jpg) no-repeat center top fixed;
+  background: url(/themes/countrycourier/img/background.jpg) no-repeat center top fixed;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -314,7 +317,7 @@ hr:after {
   height: 60px;
   width: 70px;
   margin-left: -35px;
-  background: url(/themes/genotbijoux/img/bg-arrow-down.png) no-repeat 21px 26px rgba(0, 136, 204, 0.8);
+  background: url(/themes/countrycourier/img/bg-arrow-down.png) no-repeat 21px 26px rgba(0, 136, 204, 0.8);
   background-size: 28px 16px;
   text-indent: -9999px;
   display: block;
@@ -512,7 +515,7 @@ hr:after {
 }
 
 /* Search Page */
-#block-genotbijoux-content h2 {
+#block-countrycourier-content h2 {
   font-size: 2.2em;
   font-weight: 300;
   line-height: 42px;
@@ -803,7 +806,7 @@ ul.simple-post-list .post-meta {
 .navbar-header .logo a img {
   height: 50px;
   position: relative;
-  top: 50%;
+  top: 21%;
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
@@ -1291,12 +1294,23 @@ em {
     width: 4em;
   }
 
+  #block-languagedropdownswitcher {
+    float: right;
+  }
+
+}
+
+@media all {
+  section#block-selecteurdelangue {
+    float: right;
+  }
   .language-link.is-active {
-    color: #fff;
+    color: #48aee0;
   }
-
-  #block-selecteurdelangue > ul.links.listGroup {
-    margin-left: -1.4em;
+  @media (min-width: 768px) {
+    .navbar-nav {
+      float: right;
+      margin: 0;
+    }
   }
-
 }
