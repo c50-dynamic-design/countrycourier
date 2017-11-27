@@ -1308,29 +1308,29 @@ em {
   .language-link.is-active {
     color: #48aee0;
   }
-  @media (min-width: 768px) {
-    .navbar-nav {
-      float: right;
-      margin: 0;
-    }
-  }
 }
 
-.logo {
-  width: 40%;
-  z-index: 1000;
-  margin-top: -24px;
-}
-/*@media all {*/
-  /*.navbar-nav {*/
-    /*margin: 7.5px 3em;*/
-    /*clear: left;*/
-  /*}*/
-/*}*/
 @media all {
+  .navbar-nav {
+    margin: 7.5px 3em;
+    clear: left;
+  }
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: .7em;
+  }
+  .navbar-btn {
+    margin-bottom: 8px;
+    width: 17em;
+    margin-top: -12px;
+  }
+  .logo.navbar-btn.pull-left {
+    margin-top: -2px;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0 0 0.4375em;
   }
 }
