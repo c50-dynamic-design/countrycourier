@@ -209,9 +209,9 @@ hr:after {
 
 /* Page Top */
 .page-top {
-  background-color: #171717;
-  border-bottom: 3px solid #CCC;
-  border-top: 3px solid #384045;
+  background-color: #0678be;
+  border-bottom: 3px solid #0678be;
+  border-top: 3px solid #bfdaeb;
   padding: 10px 0;
   position: relative;
   text-align: left;
@@ -1303,6 +1303,7 @@ em {
 @media all {
   section#block-selecteurdelangue {
     float: right;
+    padding-top: 1em;
   }
   .language-link.is-active {
     color: #48aee0;
@@ -1312,5 +1313,24 @@ em {
       float: right;
       margin: 0;
     }
+  }
+}
+
+.logo {
+  width: 40%;
+  z-index: 1000;
+  margin-top: -24px;
+}
+/*@media all {*/
+  /*.navbar-nav {*/
+    /*margin: 7.5px 3em;*/
+    /*clear: left;*/
+  /*}*/
+/*}*/
+@media all {
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: .7em;
   }
 }
