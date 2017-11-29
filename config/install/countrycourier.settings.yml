@@ -14,21 +14,4 @@
 
 # This file cannot be empty, so install an initial empty array for "schemas".
 # @see https://www.drupal.org/node/2813829
-schemas:
-  bootstrap: 8000
-  countrycourier: 8000
-favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: 'http://countrycourier.c50-hosting.com/themes/bootstrap/favicon.ico'
-  use_default: true
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
-logo:
-  path: themes/countrycourier/logo.png
-  url: ''
-  use_default: false
-table: ''
+schemas: []
