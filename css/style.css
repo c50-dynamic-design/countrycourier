@@ -88,7 +88,6 @@ blockquote {
 
 /* Paragraphs */
 p {
-  color: #777777;
   margin: 0 0 1.3125em;
 }
 
@@ -1311,6 +1310,9 @@ em {
 }
 
 @media all {
+  .region.region-header-top {
+    margin-top:-1em;
+  }
   .navbar-nav {
     margin: 7.5px 3em;
     clear: left;
