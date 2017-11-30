@@ -88,7 +88,6 @@ blockquote {
 
 /* Paragraphs */
 p {
-  color: #777777;
   margin: 0 0 1.3125em;
 }
 
@@ -127,7 +126,7 @@ hr:after {
 
 /* Header Top */
 .header-top {
-  height: 50px;
+  height: 10%;
   border-bottom: 1px solid #EBEBEB;
   border-top: 2px solid #0088CC;
 }
@@ -324,9 +323,9 @@ hr:after {
 }
 
 #section1 h2 {
-  color: #FFFFFF;
+  color: #d9d9e7;
   margin-bottom: 4px;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 48px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1278,22 +1277,10 @@ img.align-left {
   margin-top: 5px;
 }
 
-em {
-  /* Du Bijou à la pierre: */
-  font-family: Palatino-Italic;
-  font-size: 24px;
-  color: #4A4A4A;
-  line-height: 34px;
-}
 /**
  * Place your custom styles here.
  */
 @media all {
-  #navbar > div.navbar-header > div > a.logo.navbar-btn.pull-left > img {
-    border: 0;
-    width: 4em;
-  }
-
   #block-languagedropdownswitcher {
     float: right;
   }
@@ -1311,6 +1298,9 @@ em {
 }
 
 @media all {
+  .region.region-header-top {
+    margin-top:-1em;
+  }
   .navbar-nav {
     margin: 7.5px 3em;
     clear: left;
@@ -1326,14 +1316,34 @@ em {
     margin-top: -12px;
   }
   .logo.navbar-btn.pull-left {
-    margin-top: -2px;
+    margin-top: 1em;
+    margin-left: -1.6em;
+    width: 70%;
   }
   h1 {
     font-size: 2em;
     font-weight: normal;
     margin: 0 0 0.4375em;
   }
+  #block-countrycourier-main-menu {
+    margin-left: -2.3em;
+  }
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4cacee;
+  }
   .service {
     padding-top: 1em;
   }
+  .region.region-footer-first {
+    color: #7b8a8b;
+  }
+  .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
+  }
 }
+
