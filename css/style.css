@@ -323,9 +323,9 @@ hr:after {
 }
 
 #section1 h2 {
-  color: #FFFFFF;
+  color: #d9d9e7;
   margin-bottom: 4px;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 48px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1317,7 +1317,8 @@ img.align-left {
   }
   .logo.navbar-btn.pull-left {
     margin-top: 1em;
-    width: 50%;
+    margin-left: -1.6em;
+    width: 70%;
   }
   h1 {
     font-size: 2em;
