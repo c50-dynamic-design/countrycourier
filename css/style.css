@@ -1328,6 +1328,11 @@ img.align-left {
   #block-countrycourier-main-menu {
     margin-left: -2.3em;
   }
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4cacee;
+  }
   .service {
     padding-top: 1em;
   }
@@ -1341,3 +1346,4 @@ img.align-left {
     margin-top: 15px;
   }
 }
+
