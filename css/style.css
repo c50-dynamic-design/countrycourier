@@ -126,7 +126,7 @@ hr:after {
 
 /* Header Top */
 .header-top {
-  height: 50px;
+  height: 10%;
   border-bottom: 1px solid #EBEBEB;
   border-top: 2px solid #0088CC;
 }
@@ -1281,11 +1281,6 @@ img.align-left {
  * Place your custom styles here.
  */
 @media all {
-  #navbar > div.navbar-header > div > a.logo.navbar-btn.pull-left > img {
-    border: 0;
-    width: 4em;
-  }
-
   #block-languagedropdownswitcher {
     float: right;
   }
@@ -1321,7 +1316,8 @@ img.align-left {
     margin-top: -12px;
   }
   .logo.navbar-btn.pull-left {
-    margin-top: -2px;
+    margin-top: 1em;
+    width: 50%;
   }
   h1 {
     font-size: 2em;
@@ -1330,5 +1326,8 @@ img.align-left {
   }
   .service {
     padding-top: 1em;
+  }
+  .region.region-footer-first {
+    color: #7b8a8b;
   }
 }
