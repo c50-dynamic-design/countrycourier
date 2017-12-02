@@ -1,7 +1,6 @@
 html {
   overflow-x: hidden;
   overflow-y: auto;
-  height: 110%;
 }
 
 body {
@@ -1349,3 +1348,14 @@ img.align-left {
   }
 }
 
+@media all {
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 240% !important;
+    color: rgb(118, 205, 255);
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
