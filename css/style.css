@@ -1394,7 +1394,7 @@ img.align-left {
 
 @media (min-width: 768px) {
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    background-color: #fff;
+    background-color: #deedff;
     margin-right: 0;
     margin-left: -70%;
     width: 240%;
@@ -1405,6 +1405,9 @@ img.align-left {
 }
 
 @media all {
+  .navbar-header {
+    background-color: #deedff;
+  }
   .navbar-default {
     background-color: #0b3254;
     border-color: #e7e7e7;
