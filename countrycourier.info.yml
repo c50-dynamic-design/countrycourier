@@ -7,9 +7,9 @@ description: 'A responsive Drupal8 theme.'
 package: 'Bootstrap'
 
 regions:
+  header_top: 'Header Top'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header_top: 'Header Top'
   header_th: 'Header'
   header: 'Top Bar'
   highlighted: 'Highlighted'
