@@ -948,12 +948,14 @@ ul.simple-post-list .post-meta {
   display: none;
 }
 
-.navbar-search form {
-  position: absolute;
-  right: 50px;
-  top: 4px;
-  width: 100%;
-  z-index: 3;
+@media all {
+  .navbar-search form {
+    position: absolute;
+    right: 40px;
+    top: 38px;
+    width: 170%;
+    z-index: 3;
+  }
 }
 
 .navbar-search .form-item {
@@ -966,7 +968,7 @@ ul.simple-post-list .post-meta {
   font-size: 20px;
   line-height: 26px;
   height: 46px;
-  color: #CCCCCC;
+  color: #017eb4;
 }
 
 .navbar-search .form-actions {
