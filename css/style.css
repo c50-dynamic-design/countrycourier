@@ -11,7 +11,7 @@ body {
   line-height: 21px;
   margin: 0;
   position: absolute;
-  height: 100%;
+  height: 93%;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: normal;
   margin: 0 0 0.4375em;
 }
@@ -79,7 +79,9 @@ a:active {
 }
 
 /* Language links */
-a.isactive
+a.isactive{
+
+}
 
 /* Blockquote */
 blockquote {
@@ -212,7 +214,6 @@ hr:after {
   border-bottom: 3px solid #0678be;
   border-top: 3px solid #bfdaeb;
   padding: 10px 0;
-  position: relative;
   text-align: left;
 }
 .page-top h1 {
@@ -230,7 +231,7 @@ hr:after {
 /* Content */
 .content {
   margin-bottom: 35px;
-  margin-top: 35px;
+  /*margin-top: 35px;*/
 }
 
 .region-after-content {
@@ -1314,17 +1315,12 @@ img.align-left {
   .navbar-btn {
     margin-bottom: 8px;
     width: 17em;
-    margin-top: -12px;
+    /*margin-top: -12px;*/
   }
   .logo.navbar-btn.pull-left {
     margin-top: 1em;
     margin-left: -1.6em;
-    width: 70%;
-  }
-  h1 {
-    font-size: 2em;
-    font-weight: normal;
-    margin: 0 0 0.4375em;
+    width: 70ex;
   }
   #block-countrycourier-main-menu {
     margin-left: -2.3em;
@@ -1358,4 +1354,18 @@ img.align-left {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+}
+
+@media (min-width: 1200px) {
+  .region.region-content {
+    margin-top: 10em;
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
 }
