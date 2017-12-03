@@ -176,7 +176,7 @@ hr:after {
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer a {
-  color: #FFFFFF;
+  color: #6fb2b3;
 }
 
 #footer h2 {
@@ -1378,7 +1378,7 @@ img.align-left {
   }
   .navbar-header .logo a img {
     height: 4em;
-    max-width: 360%
+    max-width: 300%
   }
 }
 @media (max-width: 48em) {
