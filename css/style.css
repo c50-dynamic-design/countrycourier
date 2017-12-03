@@ -1385,7 +1385,7 @@ img.align-left {
   .navbar-header .logo a img {
     height: 2em;
     top: 75%;
-    max-width: 260%
+    max-width: 180%;
   }
   section#block-selecteurdelangue {
     float: left;
@@ -1432,3 +1432,6 @@ h1.page-header {
   color: #808080db;
 }
 
+button.navbar-toggle {
+  margin-top: -1.4em;
+}
