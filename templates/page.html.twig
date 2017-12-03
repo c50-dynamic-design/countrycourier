@@ -174,33 +174,36 @@
 		<footer id="footer" class="footer {{ container }}" role="contentinfo">
 			<div class="container main-footer">
 				<div class="row">
-					<div class="col-md-4">
-                        {{ page.footer_first }}
-					</div>
-
-					<div class="col-md-4">
-                        {{ page.footer_second }}
-					</div>
-
-					<div class="col-md-4">
-                        {{ page.footer_third }}
-					</div>
-
+                    {% if page.footer_first %}
+						<div class="col-md-4">
+                            {{ page.footer_first }}
+						</div>
+                    {% endif %}
+                    {% if page.footer_second %}
+						<div class="col-md-4">
+                            {{ page.footer_second }}
+						</div>
+                    {% endif %}
+                    {% if page.footer_third %}
+						<div class="col-md-4">
+                            {{ page.footer_third }}
+						</div>
+                    {% endif %}
 				</div>
 			</div>
-
 			<div class="footer-copyright">
 				<div class="container">
 					<div class="row">
-
-						<div class="col-md-8">
-                            {{ page.footer_bottom_left }}
-						</div>
-
-						<div class="col-md-4">
-                            {{ page.footer_bottom_right }}
-						</div>
-
+                        {% if page.footer_bottom_left %}
+							<div class="col-md-8">
+                                {{ page.footer_bottom_left }}
+							</div>
+                        {% endif %}
+                        {% if page.footer_bottom_right %}
+							<div class="col-md-4">
+                                {{ page.footer_bottom_right }}
+							</div>
+                        {% endif %}
 					</div>
 				</div>
 			</div>
