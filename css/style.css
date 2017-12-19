@@ -1291,7 +1291,7 @@ img.align-left {
     margin-top:-1em;
   }
   .navbar-nav {
-    margin: 7.5px 3em;
+    margin: 7.5px 3em auto auto;
     clear: left;
   }
   .navbar-nav > li > a {
