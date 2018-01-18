@@ -176,13 +176,13 @@ hr:after {
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer a {
-  color: #6fb2b3;
+  color: #dfe5f4;
 }
 
 #footer h2 {
-  font-size: 1.8em;
-  margin-bottom: 14px;
-  line-height: 27px;
+  font-size: 1.3em;
+  margin-bottom: 4px;
+  line-height: 1em;
 }
 
 #footer .contact {
@@ -1434,4 +1434,17 @@ h1.page-header {
 
 button.navbar-toggle {
   margin-top: -1.4em;
+}
+
+@media all {
+  .contextual-region .contextual .contextual-links a {
+    background-color: #fff;
+    color: #333;
+    display: block;
+    font-family: sans-serif;
+    font-size: small;
+    line-height: 0.8em;
+    margin: 0.25em 0;
+    padding: 0.4em 0.6em;
+  }
 }
