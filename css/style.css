@@ -1467,3 +1467,7 @@ button.navbar-toggle {
     padding: 1px 1px 0px 2px;
   }
 }
+
+a#goto-section2.arrow-down {
+  border-radius: 26px 26px 0px 0px;
+}
