@@ -953,7 +953,7 @@ ul.simple-post-list .post-meta {
     position: absolute;
     right: 40px;
     top: 38px;
-    width: 180%;
+    width: 190%;
     z-index: 3;
   }
 }
@@ -1462,7 +1462,8 @@ button.navbar-toggle {
     padding-bottom: 12px;
     padding-top: 12px;
   }
-  i.fa.fa-search {
+  i.fa.fa-search,
+  i.fa.fa-times {
     padding: 1px 1px 0px 2px;
   }
 }
