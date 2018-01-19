@@ -1431,6 +1431,7 @@ img.align-left {
 
 h1.page-header {
   color: #808080db;
+  margin-top: 1em;
 }
 
 button.navbar-toggle {
@@ -1456,5 +1457,12 @@ button.navbar-toggle {
   }
   div.container.main-footer {
     margin-top: -3em;
+  }
+  .fa {
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+  i.fa.fa-search {
+    padding: 1px 1px 0px 2px;
   }
 }
