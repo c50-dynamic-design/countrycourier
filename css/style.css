@@ -1447,4 +1447,10 @@ button.navbar-toggle {
     margin: 0.25em 0;
     padding: 0.4em 0.6em;
   }
+  h2.block-title {
+    margin-top: 1em;
+  }
+  div.region.region-footer {
+    text-align: center;
+  }
 }
