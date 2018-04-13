@@ -230,6 +230,8 @@ hr:after {
 .intro {
   height: 100%;
   width: 100%;
+  padding-top: 37em;
+  margin-top: 40px;
   background: url(/themes/countrycourier/img/background.jpg) no-repeat center top fixed;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
@@ -292,7 +294,7 @@ hr:after {
 
 .arrow-down {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
   z-index: 11;
   height: 60px;
@@ -302,6 +304,7 @@ hr:after {
   background-size: 28px 16px;
   text-indent: -9999px;
   display: block;
+  margin-top: -57px;
 }
 
 #section1 h2 {
@@ -311,6 +314,7 @@ hr:after {
   line-height: 48px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: 8%;
 }
 
 #section1 p {
