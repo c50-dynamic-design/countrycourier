@@ -230,6 +230,8 @@ hr:after {
 .intro {
   height: 100%;
   width: 100%;
+  padding-top: 37em;
+  margin-top: 40px;
   background: url(/themes/countrycourier/img/background.jpg) no-repeat center top fixed;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
