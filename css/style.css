@@ -294,7 +294,7 @@ hr:after {
 
 .arrow-down {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
   z-index: 11;
   height: 60px;
@@ -304,6 +304,7 @@ hr:after {
   background-size: 28px 16px;
   text-indent: -9999px;
   display: block;
+  margin-top: -57px;
 }
 
 #section1 h2 {
