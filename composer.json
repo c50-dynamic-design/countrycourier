@@ -1,0 +1,8 @@
+{
+  "name": "c50-dynamic-design/countrycourier",
+  "description": "Drupal 8 theme",
+  "require": {
+    "drupal/core": "^8.7.1",
+    "drupal/bootstrap": "^3.20"
+  }
+}
